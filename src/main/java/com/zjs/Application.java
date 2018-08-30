@@ -15,6 +15,7 @@ public class Application {
 	
 	@GetMapping("/hi")
 	public String hi() {
-		return "GitHub";
+		
+		return "GitHub!!";
 	}
 }
